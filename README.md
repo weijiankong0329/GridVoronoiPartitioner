@@ -1,2 +1,4 @@
 # GridVoronoiPartitioner
-Custom partitioner for solving the limitation of the uniform grid partitioning method on the large scale spatial data
+Spatial data refers to information concerning geographical locations, manifesting in various patterns such as points, polygons, and three-dimensional structures. This type of data finds applications in diverse fields, including remote sensing, GPS, GIS, and various other technologies. Grid partitioning, a traditional partitioning method, is simple and easy to implement for spatial data partitioning. However, it encounters limitations when handling non-uniformly distributed data, resulting in imbalanced partition workloads.
+Therefore, this proposed method aims to develop a hybrid partitioner that combines the grid partitioning method with the Voronoi diagram technique. The goal is to partition data in a more adaptive manner, mitigating the issue of imbalanced workloads.
+
